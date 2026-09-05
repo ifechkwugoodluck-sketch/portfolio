@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+
+.about-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    flex-direction: column;
+    gap: 20px 50px;
+    margin: 90px auto;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 50px;
+    gap: 20px;
+}
+
+.text h2 {
+    gap: 20px;
+    height: 40px;
+}
+
+.text h4 {
+    font-size: 50px;
+    gap: 20px;
+    height: 70px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 450px;
+}
+.text h3 {
+    font-size: 25px;
+    gap: 20px;
+    height: 40px;
+}
+
+.image-small img {
+    width: 500px;
+    border-radius: 70%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+/* large-screen */
+ @media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .text{
+        flex: 1;
+    }
+
+    .image-small {
+        flex: 1;
+    }
+ }
+
+.btn {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: darkblue;
+}
