@@ -50,7 +50,7 @@ body {
     height: 300px;
     border-radius: 200px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /* large-screen */
@@ -69,27 +69,10 @@ body {
         flex: 1;
     }
  }
-
-.btn {
+.text {
     display: flex;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+    flex-direction: column;
 }
-
-.btn {
-    background: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-}
-
-.btn:hover {
-    background: darkblue;
+.Learn-more {
+    margin-top: auto;
 }
